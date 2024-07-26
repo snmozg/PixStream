@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/uploadFragment"
-        android:name="com.sozge.instagramclone.view.uploadFragment"
+        android:name="com.sozge.instagramclone.view.UploadFragment"
         android:label="fragment_upload"
         tools:layout="@layout/fragment_upload" >
         <action

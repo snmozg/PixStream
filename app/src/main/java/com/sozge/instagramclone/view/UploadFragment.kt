@@ -102,7 +102,7 @@ class UploadFragment : Fragment() {
 
                         if (task.isComplete && task.isSuccessful) {
                             //back
-                            val action = uploadFragmentDirections.actionUploadFragmentToFeedFragment()
+                            val action = UploadFragmentDirections.actionUploadFragmentToFeedFragment()
                             Navigation.findNavController(view).navigate(action)
 
                         }
